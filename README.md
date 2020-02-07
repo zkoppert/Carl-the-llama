@@ -16,6 +16,8 @@ npm start
 
 If you have suggestions for how carl-the-llama could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
+Be sure to run `npm run lint` before commiting.
+
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
