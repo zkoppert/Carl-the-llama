@@ -6,8 +6,9 @@ module.exports = app => {
   // Your code here
   app.log('Yay, the app was loaded!')
 
+  // Spicy response when a new issue is opened.
   app.on('issues.opened', async context => {
-    const issueComment = context.issue({ body: 'Thanks for opening this issue!' })
+    const issueComment = context.issue({ body: 'Thanks for opening this issue! I have alerted the office of complaints. :put_litter_in_its_place:' })
     return context.github.issues.createComment(issueComment)
   })
 
