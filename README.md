@@ -12,6 +12,11 @@ npm install
 npm start
 ```
 
+## Features
+
+Things Carl does:
+- Leaves comments on new issues
+
 ## Contributing
 
 If you have suggestions for how carl-the-llama could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
