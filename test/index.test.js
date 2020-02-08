@@ -4,7 +4,7 @@ const myProbotApp = require('..')
 const { Probot } = require('probot')
 // Requiring our fixtures
 const payload = require('./fixtures/issues.opened')
-const issueCreatedBody = { body: 'Thanks for opening this issue!' }
+const issueCreatedBody = { body: 'Thanks for opening this issue! I have alerted the office of complaints. :put_litter_in_its_place:' }
 const fs = require('fs')
 const path = require('path')
 
