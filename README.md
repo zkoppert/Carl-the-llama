@@ -1,6 +1,6 @@
 # carl-the-llama
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app
+> A GitHub App built with [Probot](https://github.com/probot/probot) that is meant for enforcing rules on his own repository.
 
 ## Setup
 
