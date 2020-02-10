@@ -1,5 +1,5 @@
 # carl-the-llama
-
+![Node.js CI](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20CI/badge.svg)
 > A GitHub App built with [Probot](https://github.com/probot/probot) that is meant for enforcing rules on his own repository.
 
 ## Setup
