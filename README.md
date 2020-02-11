@@ -20,7 +20,11 @@ Things Carl does:
 - Leaves comments on new issues
 
 ## Deployment
+*Package Deployment*
 Each time that a release is created, a package will be deployed to GitHub Packages. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
+
+*Production Deployment*
+The Zeit App automatically deploys the master branch each time a new commit occurs on that branch.
 
 ## Contributing
 
