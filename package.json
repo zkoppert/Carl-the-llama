@@ -1,13 +1,15 @@
 {
-  "name": "carl-the-llama",
-  "version": "1.0.0",
+  "name": "@zkoppert/carl-the-llama",
+  "version": "1.0.4",
   "description": "A Probot app",
   "author": "Zack Koppert <zkoppert@github.com>",
   "license": "ISC",
   "repository": "https://github.com/zkoppert/carl-the-llama.git",
   "homepage": "https://github.com/zkoppert/carl-the-llama",
   "bugs": "https://github.com/zkoppert/carl-the-llama/issues",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/zkoppert"
+  },
   "keywords": [
     "probot",
     "github",
