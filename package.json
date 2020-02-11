@@ -16,6 +16,7 @@
     "probot-app"
   ],
   "scripts": {
+    "build": "mkdir public && echo 'Carl is running' > public/index.html",
     "dev": "nodemon",
     "start": "probot run ./index.js",
     "lint": "standard --fix",
@@ -23,7 +24,8 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
-    "probot": "^9.5.3"
+    "probot": "^9.5.3",
+    "probot-serverless-now": "^2.1.2"
   },
   "devDependencies": {
     "jest": "^24.9.0",
