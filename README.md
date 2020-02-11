@@ -1,5 +1,7 @@
 # carl-the-llama
-![Node.js CI](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20CI/badge.svg)
+![CI Status](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20CI/badge.svg)
+![Deployment Status](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20Package/badge.svg)
+
 > A GitHub App built with [Probot](https://github.com/probot/probot) that is meant for enforcing rules on his own repository.
 
 ## Setup
@@ -18,7 +20,6 @@ Things Carl does:
 - Leaves comments on new issues
 
 ## Deployment
-
 Each time that a release is created, a package will be deployed to GitHub Packages. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
 
 ## Contributing
