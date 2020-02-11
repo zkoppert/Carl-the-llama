@@ -16,7 +16,7 @@
     "probot-app"
   ],
   "scripts": {
-    "build": "mkdir public && echo 'Carl is running' > public/index.html",
+    "build": "mkdir public && echo 'Carl is running' > public/index.html; probot run ./index.js &",
     "dev": "nodemon",
     "start": "probot run ./index.js",
     "lint": "standard --fix",
