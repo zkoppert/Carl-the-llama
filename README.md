@@ -17,6 +17,10 @@ npm start
 Things Carl does:
 - Leaves comments on new issues
 
+## Deployment
+
+Each time that a release is created, a package will be deployed to GitHub Packages. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
+
 ## Contributing
 
 If you have suggestions for how carl-the-llama could be improved, or want to report a bug, open an issue! We'd love all and any contributions.

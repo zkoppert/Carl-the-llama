@@ -8,6 +8,7 @@
   "repository": "https://github.com/zkoppert/carl-the-llama.git",
   "homepage": "https://github.com/zkoppert/carl-the-llama",
   "bugs": "https://github.com/zkoppert/carl-the-llama/issues",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "probot",
     "github",
