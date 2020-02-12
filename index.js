@@ -18,6 +18,13 @@ module.exports = app => {
     return context.github.issues.createComment(issueComment)
   })
 
+  const app1 = app.route('/')
+
+  // Index page
+  app1.get('/', (req, res) => {
+    res.send('Carl says hi')
+  })
+
   // For more information on building apps:
   // https://probot.github.io/docs/
 
