@@ -22,7 +22,7 @@ Things Carl does:
 ## Deployment
 **Package Deployment**
 
-Each time that a release is created, a package will be deployed to GitHub Packages. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
+Each time that a push to master occurs, a package will be deployed to GitHub Packages with the new code. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
 
 **Production Deployment**
 
