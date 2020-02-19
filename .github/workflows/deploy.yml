@@ -21,8 +21,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           WITH_V: true
-      # Update package.json version number with version data from tag 
+      # Sync version from tag to package.json 
       - run: npm version `git describe --tags`
+      # Commit files
+      - run: git config --local user.email "Carl-the-llama@nowhere.com"
+      - run: git config --local user.name "Carl Llama"
+      - run: git commit -m "Sync version number from tag" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           
   publish-gpr:
     needs: build
@@ -39,3 +47,4 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
