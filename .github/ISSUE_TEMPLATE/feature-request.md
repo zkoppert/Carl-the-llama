@@ -1,3 +1,11 @@
+---
+name: Feature Request Issue
+about: Use this template for requesting new functionality.
+title: "[DATE]: [ISSUE NAME]"
+labels: needs triage
+assignees: @zkoppert
+---
+
 **Please note by far the quickest way to get a new feature is to file a Pull Request.**
 
 ## What are you trying to accomplish?
