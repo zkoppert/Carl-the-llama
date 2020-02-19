@@ -4,6 +4,13 @@
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that is meant for enforcing rules on his own repository.
 
+## Rules
+A robot may not harm humanity, or through inaction allow humanity to come to harm.
+A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
+A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.
+[source](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)
+
 ## Setup
 
 ```sh
