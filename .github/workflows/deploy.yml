@@ -21,9 +21,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           WITH_V: true
-      - name: Sync version from tag to package.json 
+      # Sync version from tag to package.json 
       - run: npm version `git describe --tags`
-      - name: Commit files
+      # Commit files
       - run: git config --local user.email "Carl-the-llama@nowhere.com"
       - run: git config --local user.name "Carl Llama"
       - run: git commit -m "Sync version number from tag" -a
