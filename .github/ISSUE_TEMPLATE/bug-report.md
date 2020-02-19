@@ -3,7 +3,8 @@ name: Bug Report issue
 about: Use this template for reporting broken functionality.
 title: "[DATE]: [ISSUE NAME]"
 labels: needs triage
-assignees: @zkoppert
+assignees: zkoppert
+
 ---
 
 Issue tracker is **ONLY** used for reporting bugs. New features use the new feature template.
