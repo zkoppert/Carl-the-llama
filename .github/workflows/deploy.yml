@@ -24,9 +24,7 @@ jobs:
       # Sync version from tag to package.json 
       - uses: olegtarasov/get-tag@v1
         id: tagName
-        run: npm version $GITHUB_TAG_NAME
-        with:
-            tagname: ${{ steps.tagName.outputs.tag }}
+      - run: npm version $GITHUB_TAG_NAME
       # Commit files
       - run: git config --local user.email "Carl-the-llama@nowhere.com"
       - run: git config --local user.name "Carl Llama"
