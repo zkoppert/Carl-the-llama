@@ -21,7 +21,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           WITH_V: true
-
+      # Update package.json version number with version data from tag 
+      - run: npm version `git describe --tags`
+          
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
