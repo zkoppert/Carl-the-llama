@@ -1,0 +1,11 @@
+extraction:
+  javascript:
+    after_prepare: "export PATH=$LGTM_WORKSPACE/tools:$PATH"
+    index:
+      include: "./"
+      exclude: "thirdparty/lib"
+      filters:
+        exclude: "**/*.ts"
+      filetypes:
+        .jsm: "js"
+        .tmpl: "html"
