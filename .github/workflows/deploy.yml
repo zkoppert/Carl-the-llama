@@ -22,11 +22,11 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           WITH_V: true
       # Sync version from tag to package.json 
+      - run: git config --local user.email "Carl-the-llama@nowhere.com"
+      - run: git config --local user.name "Carl Llama"
       - run: git fetch --tags
       - run: npm version `git describe --tags`
       # Commit files
-      - run: git config --local user.email "Carl-the-llama@nowhere.com"
-      - run: git config --local user.name "Carl Llama"
       - run: git add package.json; git commit -m "Sync version number from tag"
       - name: Push changes
         uses: ad-m/github-push-action@master
