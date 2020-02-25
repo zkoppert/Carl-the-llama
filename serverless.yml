@@ -1,0 +1,20 @@
+service: carl-the-llama
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-west-1
+
+functions:
+  router:
+    handler: handler.probot
+
+    environment:
+      WEBHOOK_SECRET: mjBXj)fck78G>
+      APP_ID: 53888
+      LOG_FORMAT:  json
+
+    events:
+      - http:
+         path: /probot
+         method: post

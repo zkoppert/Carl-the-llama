@@ -31,6 +31,11 @@ Things Carl does:
 
 Each time that a push to master occurs, a package will be deployed to GitHub Packages with the new code. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
 
+**Production Deployment**
+
+Deploying to production is currently a manual process. It can be accomplished with the following command.
+`serverless deploy`
+
 ## Contributing
 
 If you have suggestions for how carl-the-llama could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
