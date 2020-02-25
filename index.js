@@ -7,10 +7,10 @@ module.exports = app => {
   app.log('Yay, the app was loaded!')
 
   // Lint PR's
-//  app.on('pull_request.opened, pull_request.updated', async context => {
-//    const pullComment = context.pull_request({ body: 'This code matches the style guide. :ship:' })
-//    return context.github.pull_request.createComment(pullComment)
-//  })
+  //  app.on('pull_request.opened, pull_request.updated', async context => {
+  //    const pullComment = context.pull_request({ body: 'This code matches the style guide. :ship:' })
+  //    return context.github.pull_request.createComment(pullComment)
+  //  })
 
   // Spicy response when a new issue is opened.
   app.on('issues.opened', async context => {
