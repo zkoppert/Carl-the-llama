@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/zkoppert/Carl-the-llama/tree/HEAD)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.11.0...HEAD)
+
+**Fixed bugs:**
+
+- Clean Up Changelog [\#56](https://github.com/zkoppert/Carl-the-llama/issues/56)
+
 ## [v1.11.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.11.0) (2020-03-06)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.10.0...v1.11.0)
