@@ -10,9 +10,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Generate changelog
+        uses: charmixer/auto-changelog-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit files
+        env:
+          CI_USER: Carl Llama
+          CI_EMAIL: Carl-the-llama@nowhere.com
+        run: |
+          git config --local user.email "$CI_EMAIL"
+          git config --local user.name "$CI_USER"
+          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo ::set-env name=push::1 || echo "No changes to CHANGELOG.md"
+                  
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+        
       - run: npm install --production
       - run: npm ci
       - run: npm test
@@ -21,13 +37,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           WITH_V: true
+          
       # Sync version from tag to package.json 
       - run: git config --local user.email "Carl-the-llama@nowhere.com"
       - run: git config --local user.name "Carl Llama"
       - run: git fetch --tags
       - run: npm --no-git-tag-version version `git describe --tags`
+      
       # Commit files
       - run: git add package.json; git commit -m "Sync version number from tag"
+
+      # Push Changes
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
