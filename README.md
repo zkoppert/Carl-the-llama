@@ -1,5 +1,5 @@
 # carl-the-llama
-![CI Status](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20CI/badge.svg)
+![Continuous Integration](https://github.com/zkoppert/Carl-the-llama/workflows/Continuous%20Integration/badge.svg)
 ![Deployment Status](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20Package/badge.svg)
 ![Changelog](https://github.com/zkoppert/Carl-the-llama/workflows/Changelog/badge.svg)
 
