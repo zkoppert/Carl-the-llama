@@ -30,7 +30,7 @@ jobs:
       - run: npm --no-git-tag-version version `git describe --tags`
       
       # Commit version change
-      - run: git add package.json; git commit -m "Sync version number from tag"
+      - run: git add package.json; git commit -m "#patch Sync version number from tag"
 
       # Generate Changelog
       - name: Generate changelog
@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit files
-        run: git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo ::set-env name=push::1 || echo "No changes to CHANGELOG.md"
+        run: git add CHANGELOG.md && git commit -m '#patch Updated CHANGELOG.md' && echo ::set-env name=push::1 || echo "No changes to CHANGELOG.md"
                   
       # Push Changes
       - name: Push changes
