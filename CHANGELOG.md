@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/zkoppert/Carl-the-llama/tree/HEAD)
 
-[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.8.1...HEAD)
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.9.0...HEAD)
+
+**Implemented enhancements:**
+
+- Create and automate a CHANGELOG [\#18](https://github.com/zkoppert/Carl-the-llama/issues/18)
+
+## [v1.9.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.9.0) (2020-03-06)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.8.1...v1.9.0)
 
 **Merged pull requests:**
 
@@ -75,7 +83,6 @@
 **Merged pull requests:**
 
 - \#minor Add Robot Rules [\#39](https://github.com/zkoppert/Carl-the-llama/pull/39) ([zkoppert](https://github.com/zkoppert))
-- Auto bump version [\#38](https://github.com/zkoppert/Carl-the-llama/pull/38) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.4.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.4.0) (2020-02-20)
 
@@ -142,6 +149,7 @@
 
 **Merged pull requests:**
 
+- Auto bump version [\#38](https://github.com/zkoppert/Carl-the-llama/pull/38) ([zkoppert](https://github.com/zkoppert))
 - Create package every master commit [\#37](https://github.com/zkoppert/Carl-the-llama/pull/37) ([zkoppert](https://github.com/zkoppert))
 - Create bug-report.md [\#35](https://github.com/zkoppert/Carl-the-llama/pull/35) ([zkoppert](https://github.com/zkoppert))
 - Mirror ibakshay/zeit-serverless-deployment-poc [\#29](https://github.com/zkoppert/Carl-the-llama/pull/29) ([zkoppert](https://github.com/zkoppert))
