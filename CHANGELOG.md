@@ -2,15 +2,31 @@
 
 ## [Unreleased](https://github.com/zkoppert/Carl-the-llama/tree/HEAD)
 
-[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.11.0...HEAD)
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.13.0...HEAD)
 
 **Fixed bugs:**
 
-- Clean Up Changelog [\#56](https://github.com/zkoppert/Carl-the-llama/issues/56)
+- Changelog and version change race condition [\#61](https://github.com/zkoppert/Carl-the-llama/issues/61)
+
+## [v1.13.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.13.0) (2020-03-07)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.12.0...v1.13.0)
 
 **Closed issues:**
 
 - Update docs on how the changelog works [\#58](https://github.com/zkoppert/Carl-the-llama/issues/58)
+
+**Merged pull requests:**
+
+- Delete changelog.yml [\#62](https://github.com/zkoppert/Carl-the-llama/pull/62) ([zkoppert](https://github.com/zkoppert))
+
+## [v1.12.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.12.0) (2020-03-07)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.11.0...v1.12.0)
+
+**Fixed bugs:**
+
+- Clean Up Changelog [\#56](https://github.com/zkoppert/Carl-the-llama/issues/56)
 
 **Merged pull requests:**
 
