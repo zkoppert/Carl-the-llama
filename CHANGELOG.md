@@ -8,6 +8,14 @@
 
 - Clean Up Changelog [\#56](https://github.com/zkoppert/Carl-the-llama/issues/56)
 
+**Closed issues:**
+
+- Update docs on how the changelog works [\#58](https://github.com/zkoppert/Carl-the-llama/issues/58)
+
+**Merged pull requests:**
+
+- \#patch Update Deployment docs [\#60](https://github.com/zkoppert/Carl-the-llama/pull/60) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.11.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.11.0) (2020-03-06)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.10.0...v1.11.0)
