@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.17.6](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.6) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.5...v1.17.6)
+
+**Implemented enhancements:**
+
+- Automate AWS serverless deployment [\#59](https://github.com/zkoppert/Carl-the-llama/issues/59)
+
+**Merged pull requests:**
+
+- major: add serverless deploy action [\#78](https://github.com/zkoppert/Carl-the-llama/pull/78) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.5](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.5) (2020-03-09)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.4...v1.17.5)
@@ -45,7 +57,6 @@
 - revert to actions v1 [\#73](https://github.com/zkoppert/Carl-the-llama/pull/73) ([zkoppert](https://github.com/zkoppert))
 - add token to allow commits [\#72](https://github.com/zkoppert/Carl-the-llama/pull/72) ([zkoppert](https://github.com/zkoppert))
 - \#patch Try out new version action [\#71](https://github.com/zkoppert/Carl-the-llama/pull/71) ([zkoppert](https://github.com/zkoppert))
-- \#minor Run CI only once on master [\#66](https://github.com/zkoppert/Carl-the-llama/pull/66) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.18.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.18.0) (2020-03-09)
 
@@ -82,6 +93,10 @@
 **Fixed bugs:**
 
 - Changelogs are not catching issues closed by the PR [\#64](https://github.com/zkoppert/Carl-the-llama/issues/64)
+
+**Merged pull requests:**
+
+- \#minor Run CI only once on master [\#66](https://github.com/zkoppert/Carl-the-llama/pull/66) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.14.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.14.0) (2020-03-09)
 
