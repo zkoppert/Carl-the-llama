@@ -33,7 +33,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit files
-        run: git add CHANGELOG.md && git commit -m '#patch Updated CHANGELOG.md' && echo ::set-env name=push::1 || echo "No changes to CHANGELOG.md"
+        run: |
+          git config --local user.email "Carl-the-Llama@nowhere.com"
+          git config --local user.name "Carl Llama"
+          git add CHANGELOG.md && git commit -m '#patch Updated CHANGELOG.md'
                   
       # Push Changes
       - name: Push changes
