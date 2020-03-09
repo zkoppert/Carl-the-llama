@@ -27,21 +27,21 @@ npm start
 Things Carl does:
 - Leaves comments on new issues
 
-## Deployment
+## Operations
 **Changelog and versioning**
 The version number of this application is controlled automatically via a [GitHub Action](https://github.com/zkoppert/Carl-the-llama/blob/839c75cc367e452414ca5974ff6d5db609679159/.github/workflows/deploy.yml#L20). No need to edit this manually.
 
-The [CHANGELOG](CHANGELOG.md) file is also controlled automatically via a [GitHub Action](https://github.com/zkoppert/Carl-the-llama/blob/839c75cc367e452414ca5974ff6d5db609679159/.github/workflows/deploy.yml#L36). No need to edit this manually.
+The [CHANGELOG](CHANGELOG.md) file is also controlled automatically via a [GitHub Action](.github/workflows/deploy.yml). No need to edit this manually.
 
+## Delivery
 **NPM Package Delivery**
 
 Each time that a push to master occurs, a package will be deployed to GitHub Packages with the new code. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
 
+## Deployment
 **AWS Production Deployment**
 
-Deploying to production is currently a manual process. There is a [request](https://github.com/zkoppert/Carl-the-llama/issues/59) to automate it. It can be accomplished with the following command.
-
-`serverless deploy`
+Deploying to production is automated via a [GitHub Action](.github/workflows/deploy.yml) every time a new release (push to master) occurs.
 
 ## Contributing
 
