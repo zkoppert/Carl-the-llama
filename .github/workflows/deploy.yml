@@ -9,13 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      
-      # Wait for related issues to close
-      - name: Sleep for 30 seconds
-        uses: jakejarvis/wait-action@master
-        with:
-          time: '30s'
-
       - uses: actions/checkout@v2
   
       - uses: actions/setup-node@v1
