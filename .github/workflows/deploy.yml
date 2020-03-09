@@ -32,18 +32,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit files
+      - name: Commit & Push files
         uses: alexesprit/action-update-file@master
         with:
           file-path: CHANGELOG.md
           commit-msg: patch Updated CHANGELOG.md
           github-token: ${{ secrets.GITHUB_TOKEN }}
-                  
-      # Push Changes
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       # Deploy npm package
       - uses: actions/setup-node@v1
