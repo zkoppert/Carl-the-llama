@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.17.4](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.4) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.3...v1.17.4)
+
+**Merged pull requests:**
+
+- patch: remove unused push job [\#76](https://github.com/zkoppert/Carl-the-llama/pull/76) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.3](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.3) (2020-03-09)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.2...v1.17.3)
@@ -57,6 +65,7 @@
 **Merged pull requests:**
 
 - \#patch revert delay [\#67](https://github.com/zkoppert/Carl-the-llama/pull/67) ([zkoppert](https://github.com/zkoppert))
+- \#minor Run CI only once on master [\#66](https://github.com/zkoppert/Carl-the-llama/pull/66) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.15.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.15.0) (2020-03-09)
 
@@ -65,10 +74,6 @@
 **Fixed bugs:**
 
 - Changelogs are not catching issues closed by the PR [\#64](https://github.com/zkoppert/Carl-the-llama/issues/64)
-
-**Merged pull requests:**
-
-- \#minor Run CI only once on master [\#66](https://github.com/zkoppert/Carl-the-llama/pull/66) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.14.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.14.0) (2020-03-09)
 
