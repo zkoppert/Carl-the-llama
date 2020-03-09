@@ -23,6 +23,8 @@ jobs:
       # Bump version and tag
       - name: Automated Version Bump
         uses: phips28/gh-action-bump-version@v5.0.18
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       # Generate Changelog
       - name: Generate changelog
