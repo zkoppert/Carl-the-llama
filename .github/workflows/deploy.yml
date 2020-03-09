@@ -33,10 +33,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit files
-        run: |
-          git config --local user.email "Carl-the-Llama@nowhere.com"
-          git config --local user.name "Carl Llama"
-          git add CHANGELOG.md && git commit -m '#patch Updated CHANGELOG.md'
+        uses: alexesprit/action-update-file@master
+        with:
+          file-path: CHANGELOG.md
+          commit-msg: patch Updated CHANGELOG.md
+          github-token: ${{ secrets.GITHUB_TOKEN }}
                   
       # Push Changes
       - name: Push changes
