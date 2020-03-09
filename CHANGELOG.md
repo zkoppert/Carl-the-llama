@@ -1,5 +1,43 @@
 # Changelog
 
+## [v1.17.3](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.3) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.2...v1.17.3)
+
+**Merged pull requests:**
+
+- patch: Use actions.v1 compatible comitter [\#75](https://github.com/zkoppert/Carl-the-llama/pull/75) ([zkoppert](https://github.com/zkoppert))
+
+## [v1.17.2](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.2) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.1...v1.17.2)
+
+**Merged pull requests:**
+
+- patch Add git config user data [\#74](https://github.com/zkoppert/Carl-the-llama/pull/74) ([zkoppert](https://github.com/zkoppert))
+
+## [v1.17.1](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.1) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.18.0...v1.17.1)
+
+**Fixed bugs:**
+
+- Unable to create patch version increments [\#70](https://github.com/zkoppert/Carl-the-llama/issues/70)
+
+**Merged pull requests:**
+
+- revert to actions v1 [\#73](https://github.com/zkoppert/Carl-the-llama/pull/73) ([zkoppert](https://github.com/zkoppert))
+- add token to allow commits [\#72](https://github.com/zkoppert/Carl-the-llama/pull/72) ([zkoppert](https://github.com/zkoppert))
+- \#patch Try out new version action [\#71](https://github.com/zkoppert/Carl-the-llama/pull/71) ([zkoppert](https://github.com/zkoppert))
+
+## [v1.18.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.18.0) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.0...v1.18.0)
+
+**Merged pull requests:**
+
+- \#patch all commits need version bump identifier [\#69](https://github.com/zkoppert/Carl-the-llama/pull/69) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.0) (2020-03-09)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.16.0...v1.17.0)
@@ -112,6 +150,10 @@
 
 - 2/18/20: Publish tag as release with every new tag [\#41](https://github.com/zkoppert/Carl-the-llama/issues/41)
 
+**Merged pull requests:**
+
+- Add Changelog worklfow [\#53](https://github.com/zkoppert/Carl-the-llama/pull/53) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.7.1](https://github.com/zkoppert/Carl-the-llama/tree/v1.7.1) (2020-02-25)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.7.0...v1.7.1)
@@ -122,7 +164,6 @@
 
 **Merged pull requests:**
 
-- Add Changelog worklfow [\#53](https://github.com/zkoppert/Carl-the-llama/pull/53) ([zkoppert](https://github.com/zkoppert))
 - Add option to specify change type in merge commit [\#51](https://github.com/zkoppert/Carl-the-llama/pull/51) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.7.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.7.0) (2020-02-25)
