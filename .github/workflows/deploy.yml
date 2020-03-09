@@ -14,25 +14,16 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-        
+      
+      # Build and test
       - run: npm install --production
       - run: npm ci
       - run: npm test
-      - name: Bump version and push tag
-        uses: anothrNick/github-tag-action@1.17.2
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          WITH_V: true
-          
-      # Sync version from tag to package.json 
-      - run: git config --local user.email "Carl-the-llama@nowhere.com"
-      - run: git config --local user.name "Carl Llama"
-      - run: git fetch --tags
-      - run: npm --no-git-tag-version version `git describe --tags`
       
-      # Commit version change
-      - run: git add package.json; git commit -m "#patch Sync version number from tag"
-
+      # Bump version and tag
+      - name: Automated Version Bump
+        uses: phips28/gh-action-bump-version@v5.0.18
+      
       # Generate Changelog
       - name: Generate changelog
         uses: charmixer/auto-changelog-action@v1
@@ -47,13 +38,14 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Deploy npm package
       - uses: actions/setup-node@v1
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@zkoppert'
 
-      # Deploy npm package
       - run: npm install --production
       - run: npm ci
       - run: npm publish
