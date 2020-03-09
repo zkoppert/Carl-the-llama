@@ -1,12 +1,16 @@
 # Changelog
 
-## [Unreleased](https://github.com/zkoppert/Carl-the-llama/tree/HEAD)
+## [v1.16.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.16.0) (2020-03-09)
 
-[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.15.0...HEAD)
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.15.0...v1.16.0)
 
 **Fixed bugs:**
 
 - CI runs redundantly on pushes to master branch [\#65](https://github.com/zkoppert/Carl-the-llama/issues/65)
+
+**Merged pull requests:**
+
+- \#patch revert delay [\#67](https://github.com/zkoppert/Carl-the-llama/pull/67) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.15.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.15.0) (2020-03-09)
 
