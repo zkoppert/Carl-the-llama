@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.17.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.0) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.16.0...v1.17.0)
+
+**Merged pull requests:**
+
+- \#patch Add note to close PRs prior [\#68](https://github.com/zkoppert/Carl-the-llama/pull/68) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.16.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.16.0) (2020-03-09)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.15.0...v1.16.0)
@@ -104,10 +112,6 @@
 
 - 2/18/20: Publish tag as release with every new tag [\#41](https://github.com/zkoppert/Carl-the-llama/issues/41)
 
-**Merged pull requests:**
-
-- Add Changelog worklfow [\#53](https://github.com/zkoppert/Carl-the-llama/pull/53) ([zkoppert](https://github.com/zkoppert))
-
 ## [v1.7.1](https://github.com/zkoppert/Carl-the-llama/tree/v1.7.1) (2020-02-25)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.7.0...v1.7.1)
@@ -118,6 +122,7 @@
 
 **Merged pull requests:**
 
+- Add Changelog worklfow [\#53](https://github.com/zkoppert/Carl-the-llama/pull/53) ([zkoppert](https://github.com/zkoppert))
 - Add option to specify change type in merge commit [\#51](https://github.com/zkoppert/Carl-the-llama/pull/51) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.7.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.7.0) (2020-02-25)
