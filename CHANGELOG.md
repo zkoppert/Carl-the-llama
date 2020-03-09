@@ -2,11 +2,27 @@
 
 ## [Unreleased](https://github.com/zkoppert/Carl-the-llama/tree/HEAD)
 
-[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.13.0...HEAD)
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.14.0...HEAD)
+
+**Fixed bugs:**
+
+- Changelogs are not catching issues closed by the PR [\#64](https://github.com/zkoppert/Carl-the-llama/issues/64)
+
+## [v1.14.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.14.0) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.13.0...v1.14.0)
+
+**Implemented enhancements:**
+
+- 2/25/20: Automate Production Deployment [\#52](https://github.com/zkoppert/Carl-the-llama/issues/52)
 
 **Fixed bugs:**
 
 - Changelog and version change race condition [\#61](https://github.com/zkoppert/Carl-the-llama/issues/61)
+
+**Merged pull requests:**
+
+- Wait for issues to close before creating changelog [\#63](https://github.com/zkoppert/Carl-the-llama/pull/63) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.13.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.13.0) (2020-03-07)
 
@@ -55,10 +71,6 @@
 ## [v1.9.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.9.0) (2020-03-06)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.8.1...v1.9.0)
-
-**Merged pull requests:**
-
-- Add Changelog Badge [\#54](https://github.com/zkoppert/Carl-the-llama/pull/54) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.8.1](https://github.com/zkoppert/Carl-the-llama/tree/v1.8.1) (2020-03-06)
 
@@ -126,6 +138,7 @@
 
 **Merged pull requests:**
 
+- Add Changelog Badge [\#54](https://github.com/zkoppert/Carl-the-llama/pull/54) ([zkoppert](https://github.com/zkoppert))
 - \#minor Add Robot Rules [\#39](https://github.com/zkoppert/Carl-the-llama/pull/39) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.4.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.4.0) (2020-02-20)
