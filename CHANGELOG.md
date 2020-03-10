@@ -1,12 +1,20 @@
 # Changelog
 
-## [v1.17.6](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.6) (2020-03-09)
+## [v1.17.7](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.7) (2020-03-10)
 
-[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.5...v1.17.6)
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.6...v1.17.7)
 
 **Implemented enhancements:**
 
 - Automate AWS serverless deployment [\#59](https://github.com/zkoppert/Carl-the-llama/issues/59)
+
+**Merged pull requests:**
+
+- patch: switch to aws keys for creds [\#79](https://github.com/zkoppert/Carl-the-llama/pull/79) ([zkoppert](https://github.com/zkoppert))
+
+## [v1.17.6](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.6) (2020-03-09)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.5...v1.17.6)
 
 **Merged pull requests:**
 
@@ -320,14 +328,12 @@
 
 - Set package deploy url [\#16](https://github.com/zkoppert/Carl-the-llama/pull/16) ([zkoppert](https://github.com/zkoppert))
 - Remove private notation for packages [\#15](https://github.com/zkoppert/Carl-the-llama/pull/15) ([zkoppert](https://github.com/zkoppert))
+- Revert to default token [\#14](https://github.com/zkoppert/Carl-the-llama/pull/14) ([zkoppert](https://github.com/zkoppert))
+- Generate package-lock.json to enable npm ci command [\#12](https://github.com/zkoppert/Carl-the-llama/pull/12) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.0.3](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.3) (2020-02-11)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.0.2...v1.0.3)
-
-**Merged pull requests:**
-
-- Revert to default token [\#14](https://github.com/zkoppert/Carl-the-llama/pull/14) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.0.2](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.2) (2020-02-11)
 
@@ -340,10 +346,6 @@
 ## [v1.0.1](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.1) (2020-02-11)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.0.0...v1.0.1)
-
-**Merged pull requests:**
-
-- Generate package-lock.json to enable npm ci command [\#12](https://github.com/zkoppert/Carl-the-llama/pull/12) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.0.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.0) (2020-02-11)
 
