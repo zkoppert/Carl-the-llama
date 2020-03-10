@@ -32,7 +32,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit & Push files
+      - name: Commit & Push Changelog.md
         uses: alexesprit/action-update-file@master
         with:
           file-path: CHANGELOG.md
@@ -58,5 +58,5 @@ jobs:
         with:
           args: deploy
         env:
-          SERVERLESS_ACCESS_KEY: ${{ secrets.SERVERLESS_ACCESS_KEY }}
-
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
