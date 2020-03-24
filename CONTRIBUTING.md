@@ -31,7 +31,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - Write and update tests.
 - Keep your changes as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
-- **Important** In your set of commits, one or more commits should contain the text `#major`, `#minor`, or `#patch` at the beginning of the commit message, depending on the nature of the changes.
+- **Important** In your set of commits, one or more commits should begin with the text `major:`, `minor:`, or `patch:` at the beginning of the commit message, depending on the nature of the changes.
   - MAJOR version when you make incompatible API changes,
   - MINOR version when you add functionality in a backwards compatible manner, and
   - PATCH version when you make backwards compatible bug fixes.
