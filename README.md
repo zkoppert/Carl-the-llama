@@ -2,6 +2,8 @@
 ![Continuous Integration](https://github.com/zkoppert/Carl-the-llama/workflows/Continuous%20Integration/badge.svg)
 ![Deployment Status](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20Package/badge.svg)
 ![Changelog](https://github.com/zkoppert/Carl-the-llama/workflows/Changelog/badge.svg)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/zkoppert/Carl-the-llama.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/zkoppert/Carl-the-llama/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/zkoppert/Carl-the-llama.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/zkoppert/Carl-the-llama/context:javascript)
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that is meant for enforcing rules on his own repository.
 
