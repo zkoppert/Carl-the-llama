@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.17.8](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.8) (2020-03-24)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.7...v1.17.8)
+
+**Implemented enhancements:**
+
+- 2/18/20: Auto update dependencies [\#40](https://github.com/zkoppert/Carl-the-llama/issues/40)
+
+**Merged pull requests:**
+
+- patch: Add lgtm badges for quality and security [\#81](https://github.com/zkoppert/Carl-the-llama/pull/81) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.7](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.7) (2020-03-10)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.6...v1.17.7)
@@ -328,12 +340,14 @@
 
 - Set package deploy url [\#16](https://github.com/zkoppert/Carl-the-llama/pull/16) ([zkoppert](https://github.com/zkoppert))
 - Remove private notation for packages [\#15](https://github.com/zkoppert/Carl-the-llama/pull/15) ([zkoppert](https://github.com/zkoppert))
-- Revert to default token [\#14](https://github.com/zkoppert/Carl-the-llama/pull/14) ([zkoppert](https://github.com/zkoppert))
-- Generate package-lock.json to enable npm ci command [\#12](https://github.com/zkoppert/Carl-the-llama/pull/12) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.0.3](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.3) (2020-02-11)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.0.2...v1.0.3)
+
+**Merged pull requests:**
+
+- Revert to default token [\#14](https://github.com/zkoppert/Carl-the-llama/pull/14) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.0.2](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.2) (2020-02-11)
 
@@ -346,6 +360,10 @@
 ## [v1.0.1](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.1) (2020-02-11)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.0.0...v1.0.1)
+
+**Merged pull requests:**
+
+- Generate package-lock.json to enable npm ci command [\#12](https://github.com/zkoppert/Carl-the-llama/pull/12) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.0.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.0.0) (2020-02-11)
 
