@@ -22,7 +22,7 @@ jobs:
       
       # Bump version and tag
       - name: Automated Version Bump
-        uses: phips28/gh-action-bump-version@v7.0.2
+        uses: phips28/gh-action-bump-version@v7.0.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
