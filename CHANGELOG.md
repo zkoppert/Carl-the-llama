@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.17.9](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.9) (2020-04-07)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.8...v1.17.9)
+
+**Merged pull requests:**
+
+- actions v2 and bump-version@v7.0.2 [\#82](https://github.com/zkoppert/Carl-the-llama/pull/82) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.8](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.8) (2020-03-24)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.7...v1.17.8)
