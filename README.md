@@ -1,3 +1,4 @@
+<a href="https://opensource.org"><img height="150" align="right" src="https://opensource.org/files/OSIApprovedCropped.png" alt="Open Source Initiative Approved License logo"></a>
 # carl-the-llama
 ![Continuous Integration](https://github.com/zkoppert/Carl-the-llama/workflows/Continuous%20Integration/badge.svg)
 ![Deployment Status](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20Package/badge.svg)
