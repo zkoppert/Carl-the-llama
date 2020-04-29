@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.17.11](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.11) (2020-04-29)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.10...v1.17.11)
+
+**Merged pull requests:**
+
+- patch: update to latest version bump release [\#84](https://github.com/zkoppert/Carl-the-llama/pull/84) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.10](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.10) (2020-04-10)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.9...v1.17.10)
@@ -44,6 +52,10 @@
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.5...v1.17.6)
 
+**Merged pull requests:**
+
+- major: add serverless deploy action [\#78](https://github.com/zkoppert/Carl-the-llama/pull/78) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.5](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.5) (2020-03-09)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.4...v1.17.5)
@@ -58,7 +70,6 @@
 
 **Merged pull requests:**
 
-- major: add serverless deploy action [\#78](https://github.com/zkoppert/Carl-the-llama/pull/78) ([zkoppert](https://github.com/zkoppert))
 - patch: remove unused push job [\#76](https://github.com/zkoppert/Carl-the-llama/pull/76) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.17.3](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.3) (2020-03-09)
