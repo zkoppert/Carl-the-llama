@@ -2,6 +2,7 @@
 <a href="https://opensource.org"><img height="150" align="right" src="https://opensource.org/files/OSIApprovedCropped.png" alt="Open Source Initiative Approved License logo"></a>
 
 ![Continuous Integration](https://github.com/zkoppert/Carl-the-llama/workflows/Continuous%20Integration/badge.svg)
+![Lint Code Base](https://github.com/zkoppert/Carl-the-llama/workflows/Lint%20Code%20Base/badge.svg)
 ![Deployment Status](https://github.com/zkoppert/Carl-the-llama/workflows/Node.js%20Package/badge.svg)
 ![Changelog](https://github.com/zkoppert/Carl-the-llama/workflows/Changelog/badge.svg)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/zkoppert/Carl-the-llama.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/zkoppert/Carl-the-llama/alerts/)
