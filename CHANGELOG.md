@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.17.12](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.12) (2020-05-14)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.11...v1.17.12)
+
+**Implemented enhancements:**
+
+- Deploy to AWS Lambda  [\#32](https://github.com/zkoppert/Carl-the-llama/issues/32)
+
+**Merged pull requests:**
+
+- Create super-linter.md [\#86](https://github.com/zkoppert/Carl-the-llama/pull/86) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.11](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.11) (2020-04-29)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.10...v1.17.11)
@@ -229,10 +241,6 @@
 ## [v1.7.1](https://github.com/zkoppert/Carl-the-llama/tree/v1.7.1) (2020-02-25)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.7.0...v1.7.1)
-
-**Implemented enhancements:**
-
-- Deploy to AWS Lambda  [\#32](https://github.com/zkoppert/Carl-the-llama/issues/32)
 
 **Merged pull requests:**
 
