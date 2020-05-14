@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.17.14](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.14) (2020-05-14)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.13...v1.17.14)
+
+**Merged pull requests:**
+
+- Update super-linter.yml [\#88](https://github.com/zkoppert/Carl-the-llama/pull/88) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.13](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.13) (2020-05-14)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.12...v1.17.13)
