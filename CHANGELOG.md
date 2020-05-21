@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.17.16](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.16) (2020-05-21)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.15...v1.17.16)
+
+**Merged pull requests:**
+
+- initial security scans [\#90](https://github.com/zkoppert/Carl-the-llama/pull/90) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.15](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.15) (2020-05-14)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.14...v1.17.15)
@@ -7,6 +15,7 @@
 **Merged pull requests:**
 
 - Add Lint code base badge [\#89](https://github.com/zkoppert/Carl-the-llama/pull/89) ([zkoppert](https://github.com/zkoppert))
+- Rename super-linter.md to super-linter.yml [\#87](https://github.com/zkoppert/Carl-the-llama/pull/87) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.17.14](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.14) (2020-05-14)
 
@@ -19,10 +28,6 @@
 ## [v1.17.13](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.13) (2020-05-14)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.12...v1.17.13)
-
-**Merged pull requests:**
-
-- Rename super-linter.md to super-linter.yml [\#87](https://github.com/zkoppert/Carl-the-llama/pull/87) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.17.12](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.12) (2020-05-14)
 
@@ -306,6 +311,10 @@
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.4.0...v1.5.0)
 
+**Merged pull requests:**
+
+- \#minor Add Robot Rules [\#39](https://github.com/zkoppert/Carl-the-llama/pull/39) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.4.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.4.0) (2020-02-20)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.3.5...v1.4.0)
@@ -371,7 +380,6 @@
 
 **Merged pull requests:**
 
-- \#minor Add Robot Rules [\#39](https://github.com/zkoppert/Carl-the-llama/pull/39) ([zkoppert](https://github.com/zkoppert))
 - Auto bump version [\#38](https://github.com/zkoppert/Carl-the-llama/pull/38) ([zkoppert](https://github.com/zkoppert))
 - Create package every master commit [\#37](https://github.com/zkoppert/Carl-the-llama/pull/37) ([zkoppert](https://github.com/zkoppert))
 - Create bug-report.md [\#35](https://github.com/zkoppert/Carl-the-llama/pull/35) ([zkoppert](https://github.com/zkoppert))
