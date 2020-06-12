@@ -41,12 +41,12 @@ The [CHANGELOG](CHANGELOG.md) file is also controlled automatically via a [GitHu
 ## Delivery
 **NPM Package Delivery**
 
-Each time that a push to master occurs, a package will be deployed to GitHub Packages with the new code. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
+Each time that a push to main branch occurs, a package will be deployed to GitHub Packages with the new code. This is accomplished via GitHub Actions. Check out the [workflow](.github/workflows/deploy.yml) that makes the magic happen.
 
 ## Deployment
 **AWS Production Deployment**
 
-Deploying to production is automated via a [GitHub Action](.github/workflows/deploy.yml) every time a new release (push to master) occurs.
+Deploying to production is automated via a [GitHub Action](.github/workflows/deploy.yml) every time a new release (push to main branch) occurs.
 
 ## Contributing
 
