@@ -1,5 +1,19 @@
 # Changelog
 
+## [v1.17.20](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.20) (2020-08-25)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.19...v1.17.20)
+
+**Closed issues:**
+
+- new [\#96](https://github.com/zkoppert/Carl-the-llama/issues/96)
+- test [\#95](https://github.com/zkoppert/Carl-the-llama/issues/95)
+- test issue [\#93](https://github.com/zkoppert/Carl-the-llama/issues/93)
+
+**Merged pull requests:**
+
+- Update CONTRIBUTING.md [\#94](https://github.com/zkoppert/Carl-the-llama/pull/94) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.19](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.19) (2020-08-25)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.18...v1.17.19)
@@ -165,6 +179,7 @@
 - revert to actions v1 [\#73](https://github.com/zkoppert/Carl-the-llama/pull/73) ([zkoppert](https://github.com/zkoppert))
 - add token to allow commits [\#72](https://github.com/zkoppert/Carl-the-llama/pull/72) ([zkoppert](https://github.com/zkoppert))
 - \#patch Try out new version action [\#71](https://github.com/zkoppert/Carl-the-llama/pull/71) ([zkoppert](https://github.com/zkoppert))
+- Delete changelog.yml [\#62](https://github.com/zkoppert/Carl-the-llama/pull/62) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.18.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.18.0) (2020-03-09)
 
@@ -229,10 +244,6 @@
 **Closed issues:**
 
 - Update docs on how the changelog works [\#58](https://github.com/zkoppert/Carl-the-llama/issues/58)
-
-**Merged pull requests:**
-
-- Delete changelog.yml [\#62](https://github.com/zkoppert/Carl-the-llama/pull/62) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.12.0](https://github.com/zkoppert/Carl-the-llama/tree/v1.12.0) (2020-03-07)
 
