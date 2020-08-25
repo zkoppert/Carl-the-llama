@@ -57,7 +57,6 @@ describe('My Probot app', () => {
     nock('https://api.github.com')
       .post('/repos/hiimbex/testing-things/pulls/2/comments', (body) => {
         expect(body).toMatchObject(pullCreatedBody)
-        debugger
         return true
       })
       .reply(200)
