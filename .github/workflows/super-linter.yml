@@ -11,12 +11,12 @@ name: Lint Code Base
 #
 
 #############################
-# Start the job on all push #
+# Start the job on all PRs #
 #############################
 on:
-  push:
+  pull_request:
     branches-ignore:
-      - 'main'
+      - ''
 
 ###############
 # Set the Job #
@@ -42,6 +42,6 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter@v1.0.0
+        uses: github/super-linter@v3.0.0
         env:
           VALIDATE_ANSIBLE: false
