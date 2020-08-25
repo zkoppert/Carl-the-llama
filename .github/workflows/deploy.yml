@@ -35,6 +35,7 @@ jobs:
       - name: Commit & Push Changelog.md
         uses: alexesprit/action-update-file@master
         with:
+          branch: main
           file-path: CHANGELOG.md
           commit-msg: patch Updated CHANGELOG.md
           github-token: ${{ secrets.GITHUB_TOKEN }}
