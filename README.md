@@ -26,6 +26,7 @@ npm start
 
 Things Carl does:
 - Leaves comments on new issues
+- Leaves comments on new pull requests
 
 ## Operations
 **Changelog and versioning**
