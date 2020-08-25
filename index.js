@@ -6,11 +6,11 @@ module.exports = app => {
   // Your code here
   app.log('Yay, the app was loaded!')
 
-  // Lint PR's
-  //  app.on('pull_request.opened, pull_request.updated', async context => {
-  //    const pullComment = context.pull_request({ body: 'This code matches the style guide. :ship:' })
-  //    return context.github.pull_request.createComment(pullComment)
-  //  })
+  // Comment on PR's
+  app.on('pull_request.created', async context => {
+    const pullComment = context.pull_request({ body: 'I see you made some change to my internal parts. Looks good. :ship:' })
+    return context.github.pull_request.createComment(pullComment)
+  })
 
   // Spicy response when a new issue is opened.
   app.on('issues.opened', async context => {

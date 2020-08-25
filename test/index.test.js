@@ -5,6 +5,8 @@ const { Probot } = require('probot')
 // Requiring our fixtures
 const payload = require('./fixtures/issues.opened')
 const issueCreatedBody = { body: 'Thanks for opening this issue! I have alerted the office of complaints. :put_litter_in_its_place:' }
+const pullPayload = require('./fixtures/pull.opened')
+const pullCreatedBody = { body: 'I you made some change to my internal parts. Looks good. :ship:' }
 const fs = require('fs')
 const path = require('path')
 
@@ -43,6 +45,26 @@ describe('My Probot app', () => {
 
     // Receive a webhook event
     await probot.receive({ name: 'issues', payload })
+  })
+
+  test('creates a comment when a pull request is opened', async () => {
+    // Test that we correctly return a test token
+    nock('https://api.github.com')
+      .post('/app/installations/2/access_tokens')
+      .reply(200, { token: 'test' })
+
+    // Test that a comment is posted
+    nock('https://api.github.com')
+      .post('/repos/hiimbex/testing-things/pulls/2/comments', (body) => {
+        expect(body).toMatchObject(pullCreatedBody)
+        return true
+      })
+      .reply(200)
+
+    // Receive a webhook event
+    await probot.receive({ name: 'pull_request', payload: pullPayload })
+
+    return true
   })
 
   afterEach(() => {
