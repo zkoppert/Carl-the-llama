@@ -1,5 +1,25 @@
 # Changelog
 
+## [v1.17.19](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.19) (2020-08-25)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.18...v1.17.19)
+
+## [v1.17.18](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.18) (2020-08-25)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.17...v1.17.18)
+
+**Merged pull requests:**
+
+- comment on prs [\#92](https://github.com/zkoppert/Carl-the-llama/pull/92) ([zkoppert](https://github.com/zkoppert))
+
+## [v1.17.17](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.17) (2020-06-12)
+
+[Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.16...v1.17.17)
+
+**Merged pull requests:**
+
+- change master to main in docs [\#91](https://github.com/zkoppert/Carl-the-llama/pull/91) ([zkoppert](https://github.com/zkoppert))
+
 ## [v1.17.16](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.16) (2020-05-21)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.15...v1.17.16)
@@ -15,7 +35,6 @@
 **Merged pull requests:**
 
 - Add Lint code base badge [\#89](https://github.com/zkoppert/Carl-the-llama/pull/89) ([zkoppert](https://github.com/zkoppert))
-- Rename super-linter.md to super-linter.yml [\#87](https://github.com/zkoppert/Carl-the-llama/pull/87) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.17.14](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.14) (2020-05-14)
 
@@ -28,6 +47,10 @@
 ## [v1.17.13](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.13) (2020-05-14)
 
 [Full Changelog](https://github.com/zkoppert/Carl-the-llama/compare/v1.17.12...v1.17.13)
+
+**Merged pull requests:**
+
+- Rename super-linter.md to super-linter.yml [\#87](https://github.com/zkoppert/Carl-the-llama/pull/87) ([zkoppert](https://github.com/zkoppert))
 
 ## [v1.17.12](https://github.com/zkoppert/Carl-the-llama/tree/v1.17.12) (2020-05-14)
 
