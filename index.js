@@ -7,8 +7,7 @@ module.exports = app => {
   app.log('Yay, the app was loaded!')
 
   // Comment on PR's
-  app.on('pull_request', async context => {
-    debugger
+  app.on('pull_request.created', async context => {
     const pullComment = context.pull_request({ body: 'I see you made some change to my internal parts. Looks good. :ship:' })
     return context.github.pull_request.createComment(pullComment)
   })
